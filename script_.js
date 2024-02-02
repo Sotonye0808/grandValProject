@@ -98,7 +98,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 // Assuming you have an array of poem names
-var poemNames = ["A Dream", "Changes", "Clouds", "Dazed", "Frightened by this love - a poem", "Heavenly", "Help me", "Her Might", "Love Letter", "Love, it is divine", "My lover's embrace", "Needs", "Our Year", "Peach Moon Effect", "Remember me", "The 0406 project", "The 1402project", "1402 project 2.0", "Untitled"];
+var poemNames = ["A dream", "Changes", "Clouds", "Dazed", "Frightened by this love - a poem", "Heavenly", "Help me", "Her Might", "Love Letter", "Love, it is divine", "My lover's embrace", "Needs", "Our Year", "Peach Moon Effect", "Remember me", "The 0406 project", "The 1402project", "1402 project 2.0", "Untitled"];
 
 // Function to dynamically create list items with links
 function createPoemList() {
