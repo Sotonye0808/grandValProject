@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grand Valentine</title>
+    <link rel="stylesheet" href="style__.css" />
+  </head>
+  <body>
+    <!-- Container for the grand question -->
+    <div class="grandQuestion">
+      <h2>Will you be my Valentine?</h2>
+      <div class="button-container">
+        <div>
+          <button id="openModal" onclick="showModal()" class="cute-button">
+            Yes ❤️
+          </button>
+        </div>
+        <button id="openModal" onclick="showModal()" class="cute-button">
+          Absolutely! 🌹
+        </button>
+      </div>
+    </div>
+    <!-- Container for the scattered images -->
+    <div class="image-container">
+      <!-- Top Left -->
+      <div class="image-box" id="top-left"></div>
+
+      <!-- Top Right -->
+      <div class="image-box" id="top-right"></div>
+
+      <!-- Bottom Left -->
+      <div class="image-box" id="bottom-left"></div>
+
+      <!-- Bottom Right -->
+      <div class="image-box" id="bottom-right"></div>
+
+      <!-- Center Left -->
+      <div class="image-box" id="center-left"></div>
+
+      <!-- Center Right -->
+      <div class="image-box" id="center-right"></div>
+    </div>
+
+    <!-- Modal for Poems -->
+    <div id="celebrationModal" class="modal">
+      <h1>CONGRATULATIONS!!!</h1>
+      <h2>Thank you for being mine! ❤️🌹</h2>
+      <div class="poems">
+        <h2>
+          <p>Want to view your poems?</p>
+        </h2>
+
+        <div class="viewPoemsModal" id="viewPoemsModal">
+          <ol id="poemList"></ol>
+        </div>
+
+        <button id="viewPoems" onclick="showPoems()" class="cute-button">
+          YES
+        </button>
+        <button id="hideModal" onclick="closeModal()" class="cute-button">
+          Close
+        </button>
+      </div>
+    </div>
+  </body>
+  <script src="script_.js"></script>
+</html>
